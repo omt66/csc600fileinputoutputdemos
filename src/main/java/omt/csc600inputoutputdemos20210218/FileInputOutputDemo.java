@@ -15,17 +15,18 @@ import java.util.Date;
 import java.util.List;
 
 /**
- *
+ * Simple demos that show how to read and write to file system.
+ * 
  * @author omt
  */
 public class FileInputOutputDemo {
 
     public static void main(String[] args) throws IOException {
         System.out.println("--- FileInputOutputDemo Demos (18 Feb 2021/Thr( ---");
-//        readFileDemo1();
-//        readFileDemo2();
-//        readFileDemo3();
-//        readFileDemo4();
+        readFileDemo1();
+        readFileDemo2();
+        readFileDemo3();
+        readFileDemo4();
         writeFile1();
         appendToFile1();
     }
@@ -68,7 +69,7 @@ public class FileInputOutputDemo {
     }
 
     /**
-     * I believe this is a simpler way of reading a file from file system.
+     * I believe this is one of the simplest way of reading a file from file system.
      * @throws FileNotFoundException
      * @throws IOException 
      */
